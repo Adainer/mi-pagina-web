@@ -1,0 +1,56 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    background-color: #0078d4;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 10px;
+  }
+  
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi Página Web</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Bienvenido a mi página web</h1>
+    <p>Creada con Visual Studio Code</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sobre mí</h2>
+      <p>Hola, soy Adainer y esta es mi primera página web sencilla.</p>
+    </section>
+    <section>
+      <h2>Contacto</h2>
+      <p>Puedes escribirme a <a href="mailto:ejemplo@email.com">mi correo</a>.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Mi Página Web</p>
+  </footer>
+</body>
+</html>
